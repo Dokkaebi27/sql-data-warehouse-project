@@ -28,7 +28,7 @@ SELECT
   	ci.cst_key            AS customer_number,
   	ci.cst_firstname      AS first_name,
   	ci.cst_lastname       AS last_name,
-  	la.cntry              AS cntry,
+  	la.cntry              AS country,
   	ci.cst_marital_status AS marital_status,
 	CASE 
     WHEN ci.cst_gndr != 'n/a' THEN ci.cst_gndr  -- CRM is the primary key source for gender
